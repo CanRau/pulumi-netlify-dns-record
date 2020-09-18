@@ -1,0 +1,41 @@
+{
+  "name": "@canrau/pulumi-netlify-dns-record",
+  "description": "Dynamic Pulumi provider to manage Netlify DNS Zone records",
+  "version": "1.0.0",
+  "author": "CanRau <cansrau@gmail.com> (https://www.canrau.com/)",
+  "license": "MIT",
+  "main": "dist/netlify-dns-record.js",
+  "types": "dist/netlify-dns-record.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CanRau/pulumi-netlify-dns-record.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CanRau/pulumi-netlify-dns-record/issues"
+  },
+  "keywords": [
+    "pulumi",
+    "netlify",
+    "dns",
+    "infrastructure-as-code",
+    "iac"
+  ],
+  "files": [
+    "dist/**/*"
+  ],
+  "dependencies": {
+    "@pulumi/pulumi": "2.10.1",
+    "netlify": "4.5.1"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2",
+    "typescript": "4.0.2"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": false,
+    "useTabs": false,
+    "trailingComma": "all",
+    "bracketSpacing": false
+  }
+}
