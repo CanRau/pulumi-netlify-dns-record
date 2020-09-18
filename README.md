@@ -35,3 +35,7 @@ type NetlifyDnsInputs = {
   secondsToWaitAfter?: number | pulumi.Input<number>;
 };
 ```
+
+## Related
+
+- [Pulumi Docs about Dynamic Providers](https://www.pulumi.com/docs/intro/concepts/programming-model/#dynamicproviders)
